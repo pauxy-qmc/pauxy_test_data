@@ -1,0 +1,24 @@
+{
+    "system": {
+        "name": "Generic",
+        "nup": 5,
+        "ndown": 5,
+        "integrals": "afqmc.h5"
+    },
+    "qmc": {
+        "dt": 0.005,
+        "nwalkers": 100,
+        "blocks": 100,
+        "nsteps": 10,
+        "pop_control_freq": 5
+    },
+    "trial": {
+        "filename": "afqmc.h5"
+    },
+    "estimators": {
+        "back_propagation": {
+            "tau_bp": 0.1,
+            "path_restoration": true
+        }
+    }
+}
