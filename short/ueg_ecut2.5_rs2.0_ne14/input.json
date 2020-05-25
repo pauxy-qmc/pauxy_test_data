@@ -11,7 +11,7 @@
         "nwalkers": 100,
         "blocks": 1000,
         "nsteps": 10,
-        "":
+        "rng_seed": 7
     },
     "trial": {
         "name": "MultiSlater"
